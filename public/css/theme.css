@@ -1,0 +1,386 @@
+/* Modern Black & White Theme */
+
+html, body {
+	background-color: #0e0e0e;
+	color: #eaeaea;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d0d0d0;
+	text-decoration: underline;
+}
+
+.navbar-dark.bg-dark {
+	background-color: #0a0a0a !important;
+	border-bottom: 1px solid #222;
+}
+
+.card {
+	background-color: #141414;
+	border: 1px solid #2a2a2a;
+	border-radius: 10px;
+}
+
+.table {
+	color: #eaeaea;
+}
+
+.table thead th {
+	border-bottom-color: #333;
+}
+
+.table tbody td, .table tbody th {
+	border-color: #262626;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+	--bs-table-accent-bg: rgba(255,255,255,0.02);
+	color: inherit;
+}
+
+.table-hover > tbody > tr:hover > * {
+	--bs-table-accent-bg: rgba(255,255,255,0.04);
+	color: inherit;
+}
+
+.form-control, .form-select {
+	background-color: #1b1b1b;
+	border: 1px solid #2a2a2a;
+	color: #eaeaea;
+}
+
+.form-control:focus, .form-select:focus {
+	background-color: #1e1e1e;
+	border-color: #3a3a3a;
+	color: #ffffff;
+	box-shadow: none;
+}
+
+.btn-primary {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #000000;
+}
+
+.btn-primary:hover {
+	background-color: #e6e6e6;
+	border-color: #e6e6e6;
+	color: #000000;
+}
+
+.btn-secondary, .btn-outline-secondary {
+	background-color: transparent;
+	border-color: #666666;
+	color: #eaeaea;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #222222;
+	border-color: #777777;
+	color: #ffffff;
+}
+
+.modal-content {
+	background-color: #141414;
+	color: #eaeaea;
+	border: 1px solid #2a2a2a;
+	border-radius: 10px;
+}
+
+.alert {
+	background-color: #111111;
+	border: 1px solid #333333;
+	color: #eeeeee;
+}
+
+/* DataTables pagination & controls */
+.dataTables_wrapper .dataTables_paginate .page-link {
+	background-color: #141414;
+	border-color: #2a2a2a;
+	color: #eaeaea;
+}
+
+.dataTables_wrapper .dataTables_paginate .page-item.active .page-link {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #000000;
+}
+
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+	background-color: #1b1b1b;
+	border: 1px solid #2a2a2a;
+	color: #eaeaea;
+}
+
+/* Chart canvas container adjustment */
+#fundChart {
+	max-height: 260px;
+} 
+
+/* Zinc Monochrome Overrides */
+:root {
+	--zinc-950: #09090b;
+	--zinc-900: #18181b;
+	--zinc-800: #27272a;
+	--zinc-700: #3f3f46;
+	--zinc-600: #52525b;
+	--zinc-500: #71717a;
+	--zinc-400: #a1a1aa;
+	--zinc-300: #d4d4d8;
+	--zinc-200: #e4e4e7;
+	--zinc-100: #f4f4f5;
+	--zinc-50:  #fafafa;
+}
+
+html, body {
+	background-color: var(--zinc-950);
+	color: var(--zinc-200);
+}
+
+a { color: var(--zinc-100); }
+
+a:hover { color: var(--zinc-300); }
+
+.navbar-dark.bg-dark {
+	background-color: var(--zinc-950) !important;
+	border-bottom: 1px solid var(--zinc-800);
+}
+
+.card {
+	background-color: var(--zinc-900);
+	border: 1px solid var(--zinc-800);
+	border-radius: 12px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.table { color: var(--zinc-200); }
+.table thead th { border-bottom-color: var(--zinc-700); }
+.table tbody td, .table tbody th { border-color: var(--zinc-800); }
+.table-striped > tbody > tr:nth-of-type(odd) > * { --bs-table-accent-bg: rgba(255,255,255,0.02); }
+.table-hover > tbody > tr:hover > * { --bs-table-accent-bg: rgba(255,255,255,0.04); }
+
+.form-control, .form-select {
+	background-color: var(--zinc-900);
+	border: 1px solid var(--zinc-800);
+	color: var(--zinc-200);
+}
+.form-control:focus, .form-select:focus {
+	background-color: var(--zinc-900);
+	border-color: var(--zinc-600);
+	color: var(--zinc-50);
+	box-shadow: 0 0 0 0.2rem rgba(161,161,170,0.15);
+}
+
+.btn-primary {
+	background-color: var(--zinc-800);
+	border-color: var(--zinc-800);
+	color: var(--zinc-50);
+}
+.btn-primary:hover {
+	background-color: var(--zinc-700);
+	border-color: var(--zinc-700);
+	color: var(--zinc-50);
+}
+
+.btn-secondary, .btn-outline-secondary {
+	background-color: transparent;
+	border-color: var(--zinc-600);
+	color: var(--zinc-200);
+}
+.btn-outline-secondary:hover {
+	background-color: var(--zinc-900);
+	border-color: var(--zinc-500);
+	color: var(--zinc-50);
+}
+
+.modal-content {
+	background-color: var(--zinc-900);
+	color: var(--zinc-200);
+	border: 1px solid var(--zinc-800);
+	border-radius: 12px;
+}
+
+.alert {
+	background-color: var(--zinc-900);
+	border: 1px solid var(--zinc-700);
+	color: var(--zinc-100);
+}
+
+.dataTables_wrapper .dataTables_paginate .page-link {
+	background-color: var(--zinc-900);
+	border-color: var(--zinc-800);
+	color: var(--zinc-200);
+}
+.dataTables_wrapper .dataTables_paginate .page-item.active .page-link {
+	background-color: var(--zinc-100);
+	border-color: var(--zinc-100);
+	color: #000;
+}
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+	background-color: var(--zinc-900);
+	border: 1px solid var(--zinc-800);
+	color: var(--zinc-200);
+}
+
+/* Subtle spacing */
+.container { max-width: 1200px; }
+
+#fundChart { max-height: 260px; } 
+
+/* Light Zinc Monochrome Overrides */
+:root {
+	--bg: var(--zinc-50);
+	--surface: #ffffff;
+	--border: var(--zinc-200);
+	--muted: var(--zinc-500);
+	--text: var(--zinc-900);
+	--text-muted: var(--zinc-700);
+}
+
+html, body {
+	background-color: var(--bg);
+	color: var(--text);
+}
+
+.navbar {
+	background-color: var(--surface) !important;
+	border-bottom: 1px solid var(--border);
+}
+
+.card {
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.table { color: var(--text); }
+.table thead th { border-bottom-color: var(--border); color: var(--text-muted); }
+.table tbody td, .table tbody th { border-color: var(--border); }
+.table-striped > tbody > tr:nth-of-type(odd) > * { --bs-table-accent-bg: rgba(0,0,0,0.015); }
+.table-hover > tbody > tr:hover > * { --bs-table-accent-bg: rgba(0,0,0,0.03); }
+
+.form-control, .form-select {
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	color: var(--text);
+}
+.form-control::placeholder { color: var(--muted); }
+.form-control:focus, .form-select:focus {
+	border-color: var(--zinc-400);
+	box-shadow: 0 0 0 0.15rem rgba(0,0,0,0.06);
+}
+
+.btn-primary {
+	background-color: #000000;
+	border-color: #000000;
+	color: #ffffff;
+}
+.btn-primary:hover { background-color: #111111; border-color: #111111; }
+
+.btn-outline-secondary {
+	border-color: var(--zinc-800);
+	color: var(--zinc-900);
+}
+.btn-outline-secondary:hover {
+	background-color: var(--zinc-100);
+	border-color: var(--zinc-900);
+	color: #000;
+}
+
+.alert {
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	color: var(--text);
+}
+
+.dataTables_wrapper .dataTables_paginate .page-link {
+	background-color: var(--surface);
+	border-color: var(--border);
+	color: var(--text);
+}
+.dataTables_wrapper .dataTables_paginate .page-item.active .page-link {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	color: var(--text);
+}
+
+a { color: #000; }
+a:hover { color: #111; } 
+
+/* Tailwind-like Typography and Spacing */
+body {
+	font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	letter-spacing: 0.2px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	letter-spacing: -0.2px;
+}
+
+.navbar .nav-link {
+	color: var(--text-muted);
+	font-weight: 500;
+	padding: 0.5rem 0.75rem;
+	border-radius: 8px;
+}
+
+.navbar .nav-link:hover {
+	color: var(--text);
+	background-color: var(--zinc-100);
+}
+
+.container { max-width: 1200px; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text);
+	font-weight: 600;
+	letter-spacing: -0.2px;
+}
+
+.card-header {
+	font-weight: 600;
+	color: var(--text-muted);
+	background: transparent;
+	border-bottom: 1px solid var(--border);
+}
+
+.btn {
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+.form-label { font-weight: 600; color: var(--text-muted); }
+
+.table thead th { font-weight: 600; } 
+
+/* Modal content override for light theme */
+.modal-content {
+	background-color: var(--surface) !important;
+	color: var(--text);
+	border: 1px solid var(--border);
+}
+
+.modal-header, .modal-footer {
+	background: transparent;
+	border-color: var(--border);
+}
+
+.btn-close {
+	filter: invert(0);
+	opacity: 0.7;
+}
+.btn-close:hover { opacity: 1; } 
