@@ -1,3 +1,18 @@
+# CodeIgniter 4 To-Do List App
+A simple To-Do List app built using CodeIgniter 4, AJAX, and MySQL.
+
+## Features
+- Add / Delete tasks dynamically
+- AJAX-based interaction (no page reload)
+- Bootstrap-styled UI
+
+## Setup
+1. create a database any name 'exampledb'
+3. Configure DB in `.env`
+4. Run with `php spark migrate`
+5. Run with `php spark serve`
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
